@@ -1,7 +1,8 @@
 import requests
 import json
 
-URL = 'http://192.168.98.91:5777/mta/users/login'
+URL = input("Enter a URL :")
+#URL = 'http://192.168.98.91:5777/mta/users/login'
 
 users = ['root', 'user', 'accounts@multitechcorp.in','test']
 passwords = ['admin', '1234', 'password','noo','mta@1234']
